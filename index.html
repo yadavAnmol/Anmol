@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmol</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="nav_row">
+      <div class="text">
+        <h1>Anmol Yadav</h1>
+      </div>
+      <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#about" onclick="about()">About</a>
+        <a href="#skill" onclick="skill()">Skills</a>
+        <a href="#project" onclick="project()">Projects</a>
+        <a href="#game" onclick="game()">Game</a>
+      </div>
+    </div>
+
+    <!-- Content Section -->
+    <section class="content" id="home">
+      <div class="row1">
+        <p class="intro">
+          Hello Everyone 👋, Welcome to my portfolio website. I'm glad you're
+          here! Feel free to explore and share your feedback—I'd love to hear
+          from you!
+        </p>
+        <p class="about">
+          Hello! I'm <u>Anmol Yadav</u> from Thane, Maharashtra. I'm a
+          third-year engineering student at Lokmanya Tilak College of
+          Engineering. I completed my SSC and HSC at Gyanodaya Vidya Mandir
+          College. I enjoy working on hardware and software projects, and love
+          exploring new technologies. In my free time, I play cricket, carrom,
+          and enjoy drawing and painting. I'm still discovering my long-term
+          goals, but I'm confident in my hard work, curiosity, and willingness
+          to learn.
+        </p>
+      </div>
+      <div class="row2">
+        <img src="anmol2.jpg" alt="Anmol" class="img" />
+      </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback" id="feedback">
+      <h2>Feedback</h2>
+      <form id="feedbackForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Feedback</button>
+        <p id="feedbackMsg"></p>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Anmol Yadav | All rights reserved.</p>
+        <div class="socials">
+          <a
+            href="https://github.com/yadavAnmol"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anmol-yadav-643a19314/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/krishna__397/?hl=en"
+            target="_blank"
+            title="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
